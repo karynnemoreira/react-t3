@@ -1,10 +1,13 @@
 import Header from "./components/header/Header.jsx"; //importando o componente Header.jsx
+import HookUseState from "./components/HookUseState.jsx"
+
 
 function App() {
   return (
     <>
       {/* Chamando o componente Header para ser renderizado na página */}
       <Header />
+      <HookUseState />
 
       <main>
         <h2>Eu sou a main</h2>
